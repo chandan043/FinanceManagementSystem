@@ -1,0 +1,40 @@
+
+1. User Registration & Initial Setup
+As a user, I want to register an account and automatically create a monthly budget record,
+so that I can start managing my finances right after signing up.
+
+2. Goal Tracking
+As a user, I want to set a financial goal (e.g., buying a car), track my savings toward it,
+and see progress updates, so that I can plan large purchases confidently.
+
+3. Income Management
+As a user, I want to add income entries from different sources (e.g., salary, freelance),
+update or delete them, and have these changes reflected in my dashboard and goals,
+so that I can manage earnings accurately.
+
+4. Expense Management & Categorization
+As a user, I want to add, update, or delete expense entries and assign them
+to custom categories (e.g., Travel, Groceries), so that I can track and organize
+my spending effectively.
+
+5. Financial History Search
+As a user, I want to view my income and expense history filtered by date range
+or category, so that I can analyze my past financial habits and trends.
+
+6. Real-Time Financial Dashboard
+As a user, I want to view a real-time dashboard that shows my current balance, total income, total expenses, goal progress, and a category-wise breakdown of expenses, so that I can understand my financial health at a glance.
+
+7. Admin Cleanup Action
+As an admin, I want to delete a user and automatically remove all their associated records (expenses, incomes, budget, goals, and categories), so that the system stays clean and consistent.
+
+
+Relationships
+
+One User → Many Goals
+One User → Many Income entries
+One User → Many Expense
+One	User -> One Budget
+
+One ExpenseCategory → Many Expense
+
+Many Expense → One ExpenseCategory
